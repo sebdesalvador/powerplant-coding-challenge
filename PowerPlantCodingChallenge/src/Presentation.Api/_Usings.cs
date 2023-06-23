@@ -1,0 +1,15 @@
+global using System.Net.Mime;
+global using Engie.PowerPlantCodingChallenge.Application.Extensions;
+global using Engie.PowerPlantCodingChallenge.Application.Queries;
+global using Engie.PowerPlantCodingChallenge.BuildingBlocks.AspNetCore.Extensions;
+global using Engie.PowerPlantCodingChallenge.BuildingBlocks.Logging.Extensions;
+global using Engie.PowerPlantCodingChallenge.Core.Read.Model;
+global using Engie.PowerPlantCodingChallenge.Infrastructure.Extensions;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.ResponseCompression;
+global using Microsoft.OpenApi.Models;
+global using Newtonsoft.Json;
+global using Newtonsoft.Json.Serialization;
+global using Serilog;
+global using Swashbuckle.AspNetCore.SwaggerGen;

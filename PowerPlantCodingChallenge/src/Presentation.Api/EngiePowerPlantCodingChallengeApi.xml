@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Engie.PowerPlantCodingChallenge.Presentation.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Engie.PowerPlantCodingChallenge.Presentation.Api.Controllers.PowerPlantsController">
+            <summary>
+            Controller for the <see cref="T:Engie.PowerPlantCodingChallenge.Core.Read.Model.PowerPlantToBeActivated" /> resource
+            </summary>
+        </member>
+        <member name="M:Engie.PowerPlantCodingChallenge.Presentation.Api.Controllers.PowerPlantsController.#ctor(Microsoft.Extensions.Logging.ILogger{Engie.PowerPlantCodingChallenge.Presentation.Api.Controllers.PowerPlantsController},MediatR.IMediator)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="logger"></param>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Engie.PowerPlantCodingChallenge.Presentation.Api.Controllers.PowerPlantsController.GetList(Engie.PowerPlantCodingChallenge.Application.Queries.GetListOfPowerPlantsToActivateQuery,System.Threading.CancellationToken)">
+            <summary>
+            Get the list of power plants to be activated
+            </summary>
+            <param name="query"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <AssemblyName>Engie.PowerPlantCodingChallenge.Core</AssemblyName>
+        <RootNamespace>Engie.PowerPlantCodingChallenge.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BuildingBlocks\Architecture\Architecture.csproj" />
+    </ItemGroup>
+
+</Project>

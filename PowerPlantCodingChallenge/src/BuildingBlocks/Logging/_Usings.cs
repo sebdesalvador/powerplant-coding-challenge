@@ -1,0 +1,9 @@
+global using System.Diagnostics.CodeAnalysis;
+global using Engie.PowerPlantCodingChallenge.BuildingBlocks.Architecture.Logging.Abstractions;
+global using Engie.PowerPlantCodingChallenge.BuildingBlocks.Logging.Serialization.Json.Converters;
+global using Microsoft.Extensions.DependencyInjection;
+global using Newtonsoft.Json;
+global using Newtonsoft.Json.Linq;
+global using Serilog;
+global using Serilog.Core;
+global using Serilog.Events;
